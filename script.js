@@ -141,13 +141,13 @@
 //     console.log(" not eligiable")
 // }
 
-/*
-var price=Number(prompt("enter producet price"));
-var quantity=Number(prompt("enter producet quantity"));
+
+var price1=Number(prompt("enter producet price"));
+var quantity1=Number(prompt("enter producet quantity1"));
 var age=Number(prompt("enter ur age "));
 
 
-var totalBill=price * quantity;
+var totalBill=price1 * quantity1;
 
 if(totalBill >= 5000 && age >=18){
     console.log("20% discount applied")
@@ -159,7 +159,7 @@ else if (totalBill >=3000 && age >= 25){
 
 else {
     console.log("0% discount applied")
-}*/
+}
 
 // var salary = Number(prompt("enter ur salary"));
 // var experience = Number(prompt("enter ur experrience "));
@@ -195,16 +195,16 @@ else {
 // console.log( "the final price is here ",finalPrice)
 
 
-// var salary=Number(prompt("enter ur salary"));
-// var bonus=Number(prompt("enter ur bonus"));
-// var finalSalary=salary * bonus /100;
-// salary +=finalSalary
-// console.log(salary)
+var salary=Number(prompt("enter ur salary"));
+var bonus=Number(prompt("enter ur bonus"));
+var finalSalary=salary * bonus /100;
+salary +=finalSalary
+console.log(salary)
 
-// var price = Number(prompt("Enter product price"));
-// var quantity = Number(prompt("Enter quantity"));
-// var discountPer = Number(prompt("Enter discount percentage"));
-// var finalBill=price * quantity;
-// var discount=finalBill *discountPer/100
-// finalBill -=discount
-// console.log(discount)
+var price = Number(prompt("Enter product price"));
+var quantity = Number(prompt("Enter quantity"));
+var discountPer = Number(prompt("Enter discount percentage"));
+var finalBill=price * quantity;
+var discount=finalBill *discountPer/100
+finalBill -=discount
+console.log(discount)
