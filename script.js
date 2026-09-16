@@ -208,3 +208,49 @@ var finalBill=price * quantity;
 var discount=finalBill *discountPer/100
 finalBill -=discount
 console.log(discount)
+   
+// }
+//  var arr1=[12 , 13, 15, 19, 18, 89, 90, 100, -];
+//  let arr= Math.min(...arr1)   // and we can use also max to finde the largest numebr of array 
+//  console.log( arr);
+ 
+
+
+// p=o/t*100
+// 10/100*t=o
+// 0.5*t=o
+
+// var salary=Number(prompt("enter ur salary "));
+// var bonus= Number(prompt("enter ur bonus here"));
+// var addBonus= salary * bonus /100
+// salary +=addBonus
+// console.log(salary);
+
+
+
+// var price=Number(prompt("enter ur price"));
+// var quantity=Number(prompt("enter ur quintities"));
+// var discount=10;
+// var finalBill=price * quantity ;
+// var discountAmount= finalBill * discount /100;
+// finalBill -=discountAmount
+// console.log(finalBill);
+
+
+
+var customer= +prompt("enter ur age");
+var price = +prompt("enter ur price");
+var discounty = 10;
+var discountAmount= price * discounty /100;
+price -=discountAmount;
+
+if( customer  > 50){
+    console.log("discount applied" , price)
+}
+ else if ( customer > 20){
+    console.log("discount not applied" , price +discountAmount);
+    
+ }
+
+
+
