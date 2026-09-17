@@ -3,6 +3,7 @@
 // const c = 3;
 
 // // default precedence
+// BODMAS , DMAS RULE IS FOLLOWED
 //  const wrong= a + b * c; // 7
 //  console.log(wrong)
 // // evaluated by default like this
