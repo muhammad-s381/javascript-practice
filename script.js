@@ -143,24 +143,24 @@
 // }
 
 
-var price1=Number(prompt("enter producet price"));
-var quantity1=Number(prompt("enter producet quantity1"));
-var age=Number(prompt("enter ur age "));
+// var price1=Number(prompt("enter producet price"));
+// var quantity1=Number(prompt("enter producet quantity1"));
+// var age=Number(prompt("enter ur age "));
 
 
-var totalBill=price1 * quantity1;
+// var totalBill=price1 * quantity1;
 
-if(totalBill >= 5000 && age >=18){
-    console.log("20% discount applied")
-}
-else if (totalBill >=3000 && age >= 25){
-    console.log("10% discount applied")
-}
+// if(totalBill >= 5000 && age >=18){
+//     console.log("20% discount applied")
+// }
+// else if (totalBill >=3000 && age >= 25){
+//     console.log("10% discount applied")
+// }
 
 
-else {
-    console.log("0% discount applied")
-}
+// else {
+//     console.log("0% discount applied")
+// }
 
 // var salary = Number(prompt("enter ur salary"));
 // var experience = Number(prompt("enter ur experrience "));
@@ -196,19 +196,19 @@ else {
 // console.log( "the final price is here ",finalPrice)
 
 
-var salary=Number(prompt("enter ur salary"));
-var bonus=Number(prompt("enter ur bonus"));
-var finalSalary=salary * bonus /100;
-salary +=finalSalary
-console.log(salary)
+// var salary=Number(prompt("enter ur salary"));
+// var bonus=Number(prompt("enter ur bonus"));
+// var finalSalary=salary * bonus /100;
+// salary +=finalSalary
+// console.log(salary)
 
-var price = Number(prompt("Enter product price"));
-var quantity = Number(prompt("Enter quantity"));
-var discountPer = Number(prompt("Enter discount percentage"));
-var finalBill=price * quantity;
-var discount=finalBill *discountPer/100
-finalBill -=discount
-console.log(discount)
+// var price = Number(prompt("Enter product price"));
+// var quantity = Number(prompt("Enter quantity"));
+// var discountPer = Number(prompt("Enter discount percentage"));
+// var finalBill=price * quantity;
+// var discount=finalBill *discountPer/100
+// finalBill -=discount
+// console.log(discount)
    
 // }
 //  var arr1=[12 , 13, 15, 19, 18, 89, 90, 100, -];
@@ -239,19 +239,38 @@ console.log(discount)
 
 
 
-var customer= +prompt("enter ur age");
-var price = +prompt("enter ur price");
-var discounty = 10;
-var discountAmount= price * discounty /100;
-price -=discountAmount;
+// var customer= +prompt("enter ur age");
+// var price = +prompt("enter ur price");
+// var discounty = 10;
+// var discountAmount= price * discounty /100;
+// price -=discountAmount;
 
-if( customer  > 50){
-    console.log("discount applied" , price)
-}
- else if ( customer > 20){
-    console.log("discount not applied" , price +discountAmount);
+// if( customer  > 50){
+//     console.log("discount applied" , price)
+// }
+//  else if ( customer > 20){
+//     console.log("discount not applied" , price +discountAmount);
     
- }
+//  }
 
 
+// ternary operators prictice
 
+
+// same logic i used ternary operator to cehck odd or even numbers
+
+var numberthree=Number(prompt("enter ur number to chcek odd or even? "));
+var myResult;
+
+if(numberthree% 2===0){
+    myResult="even"
+}else{
+    myResult="odd"
+}
+console.log( "this is ur number and it is = "+myResult)
+
+
+var numberOne=Number(prompt("enter ur number to check odd or even?"));
+var result;
+ result = numberOne %2===0 ? "even": "odd";
+console.log(  "this is ur number and its = "+result)
