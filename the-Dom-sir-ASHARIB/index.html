@@ -1,0 +1,91 @@
+~~<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        /* .slider-img{
+            border: 1px solid black;
+            height: 300px;
+            width: 600px;
+        }
+        .slider-img >#box-img{
+             height: 300px;
+            width: 400px; 
+        } */
+
+
+
+
+        .slider-img {
+            border: 1px solid black;
+            height: 500px;
+            width: 600px;
+
+        }
+
+        .img-box {
+            height: 100%;
+            width: 100%;
+        }
+
+        .slider-main,
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .box {
+            height: 150px;
+            width: 150px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    
+    <div id="main">
+
+    </div>
+
+
+    <div class="slider-img">
+        <div class="slider-main">
+            <img id="box-img" src="./img/saleem.jpg">
+        </div>
+    </div> 
+
+
+     <input type="text" id="you"/>
+    <button onClick="textShow()">Click me</button>
+    <div id="myBoxses"> 
+
+    </div>
+
+    <div id="slider-img">
+        <div id="slider-main">
+            <img id="box-img">
+        </div>
+    </div>
+    <div id="main">
+
+    </div>
+
+
+<button onclick="changeImage(-1)">Previous</button>
+
+<button onclick="changeImage(1)">Next</button>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
